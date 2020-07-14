@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.30225.117
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IRECKONU_FileProcessingApp", "IRECKONU_FileProcessingApp\IRECKONU_FileProcessingApp.csproj", "{B24449B3-F320-45F6-9917-DC1F02FF76A0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IRECKONU_FileProcessingApp.Domain", "IRECKONU_FileProcessingApp.Domain\IRECKONU_FileProcessingApp.Domain.csproj", "{F08E7BF0-A50A-4D00-9980-5210A2278209}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IRECKONU_FileProcessingApp.Data", "IRECKONU_FileProcessingApp.Data\IRECKONU_FileProcessingApp.Data.csproj", "{F6CC4CE4-298E-4A6A-9ECB-F05265A13E78}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{B24449B3-F320-45F6-9917-DC1F02FF76A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B24449B3-F320-45F6-9917-DC1F02FF76A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B24449B3-F320-45F6-9917-DC1F02FF76A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F08E7BF0-A50A-4D00-9980-5210A2278209}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F08E7BF0-A50A-4D00-9980-5210A2278209}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F08E7BF0-A50A-4D00-9980-5210A2278209}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F08E7BF0-A50A-4D00-9980-5210A2278209}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6CC4CE4-298E-4A6A-9ECB-F05265A13E78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6CC4CE4-298E-4A6A-9ECB-F05265A13E78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6CC4CE4-298E-4A6A-9ECB-F05265A13E78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6CC4CE4-298E-4A6A-9ECB-F05265A13E78}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
