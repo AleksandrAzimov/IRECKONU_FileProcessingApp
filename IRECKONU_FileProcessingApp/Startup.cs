@@ -64,6 +64,13 @@ namespace IRECKONU_FileProcessingApp
             {
                 endpoints.MapControllers();
             });
+
+            var serviceScopeFactory = app.ApplicationServices.GetRequiredService<IServiceScopeFactory>();
+            using (var serviceScope = serviceScopeFactory.CreateScope())
+            {
+                var dbContext = serviceScope.ServiceProvider.GetService<DataContext>();
+                dbContext.Database.EnsureCreated();
+            }
         }
     }
 }
